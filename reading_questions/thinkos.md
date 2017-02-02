@@ -4,20 +4,28 @@
 ### Compilation
 
 1) Give an example of a feature common in interpreted languages that is rare in compiled languages.
+Platform independence, dynamic typing, rapid prototyping cycles?
 
 2) Name two advantages of static typing over dynamic typing.
+Compiletime and Runtime type safety and checking.
+Performance.
 
 3) Give an example of a static semantic error.
+int i;
+i++;
 
 4) What are two reasons you might want to turn off code optimization?
+Debugging code in assembly, or doing heinous tricks that are normally optimized out of code.
 
 5) When you run `gcc` with `-S`, why might the results look different on different computers?
+different architecture, different assembly.
 
 6) If you spell a variable name wrong, or if you spell a function name wrong, 
 the error messages you get might look very different.  Why?
+One fails during compilation, one fails during linking.
 
 7) What is a segmentation fault?
-
+Attempting to read of write from an illegal memory location.
 
 ## Chapter 2
 
